@@ -4,11 +4,11 @@ This repository contains the code for the `life-exp-poc`.
 
 ## About the project
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+This project creates an app to deploy the work that developed a model that takes into consideration health, socioeconomic, and behavioral characteristics in predicting life expectancy to address the limitations of traditional life expectancy models, such as the ordinary life table. The published work can be accessed [here!](https://link.springer.com/article/10.1007/s42452-023-05404-w)
 
 The repository contains the code for the life-exp-poc using Python and Flask.
 
-Please note this project assumes a fundamental knowledge of Python and SQL.
+Please note this project assumes a fundamental knowledge of Python and Flask.
 
 ## Installation
 
