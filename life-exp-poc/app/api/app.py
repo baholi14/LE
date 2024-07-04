@@ -13,7 +13,7 @@ cwd = os.getcwd()
 print(f"Current working directory: {cwd}")
 
 # Go back two levels (up to the project_name directory)
-parent_directory = os.path.abspath(os.path.join(cwd, "..", ".."))
+parent_directory = os.path.abspath(os.path.join(cwd))
 
 # Define the path to the model
 model_path = os.path.join(parent_directory, "models", "lePredictor2.pkl")
