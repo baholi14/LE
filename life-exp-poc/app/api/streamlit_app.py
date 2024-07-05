@@ -31,7 +31,7 @@ st.markdown("""
         text-align: center;
     }
     .input-label {
-        color: #333;
+        color: #800080;  # Purple color
         font-size: 18px;
     }
     .stButton>button {
@@ -64,7 +64,7 @@ def main():
     AdultM = st.number_input("", min_value=1, key="AdultM")
     
     st.markdown("<div class='input-label'>HIV/AIDS deaths per 1000 population</div>", unsafe_allow_html=True)
-    HIV = st.number_input("", min_value=0.01, key="HIV")
+    HIV = st.number_input("", min_value=1, key="HIV")
     
     st.markdown("<div class='input-label'>Average body mass index (BMI) of the entire population</div>", unsafe_allow_html=True)
     BMI = st.number_input("", min_value=0.01, key="BMI")
