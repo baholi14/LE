@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: flask-api
+    env: python
+    buildCommand: pip install -r environment/requirements.txt
+    startCommand: python app/api/app.py
+    plan: free
+
+  - type: web
+    name: streamlit-app
+    env: python
+    buildCommand: pip install -r environment/requirements.txt
+    startCommand: streamlit run app/api/streamlit_app.py --server.port $PORT
+    plan: free
